@@ -1,0 +1,262 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SafeHarvest AI</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<!-- HEADER -->
+<header>
+    <h1>🌱 SafeHarvest AI</h1>
+
+    <nav>
+        <a href="#home" data-en="Home" data-te="హోమ్">Home</a>
+        <a href="#about" data-en="About" data-te="మా ప్రాజెక్ట్">About</a>
+        <a href="#chemicals" data-en="Chemicals" data-te="రసాయనాలు">Chemicals</a>
+        <a href="#organic" data-en="Organic Farming" data-te="సేంద్రీయ వ్యవసాయం">Organic Farming</a>
+        <a href="#safety" data-en="Food Safety" data-te="ఆహార భద్రత">Food Safety</a>
+        <a href="#assistant" data-en="AI Assistant" data-te="AI సహాయకుడు">AI Assistant</a>
+    </nav>
+
+    <button id="languageBtn" onclick="toggleLanguage()">తెలుగు</button>
+</header>
+
+
+<!-- HOME SECTION -->
+<section id="home" class="hero">
+    <h1
+        data-en="Smart Farming for a Healthy Future"
+        data-te="ఆరోగ్యకరమైన భవిష్యత్తు కోసం స్మార్ట్ వ్యవసాయం">
+        Smart Farming for a Healthy Future
+    </h1>
+
+    <p
+        data-en="Learn about safe chemical usage, organic farming and healthy food."
+        data-te="రసాయనాల సురక్షిత వినియోగం, సేంద్రీయ వ్యవసాయం మరియు ఆరోగ్యకరమైన ఆహారం గురించి తెలుసుకోండి.">
+        Learn about safe chemical usage, organic farming and healthy food.
+    </p>
+
+    <a href="#assistant" class="hero-btn"
+       data-en="Ask Farming Assistant"
+       data-te="వ్యవసాయ సహాయకుడిని అడగండి">
+       Ask Farming Assistant
+    </a>
+</section>
+
+
+<!-- ABOUT SECTION -->
+<section id="about" class="section">
+    <h2 data-en="About Our Project" data-te="మా ప్రాజెక్ట్ గురించి">
+        About Our Project
+    </h2>
+
+    <p
+        data-en="SafeHarvest AI is an educational website that provides information about the use of chemicals on fruits and vegetables. It explains fertilizers, pesticides, organic farming and food safety."
+        data-te="SafeHarvest AI అనేది పండ్లు మరియు కూరగాయలపై రసాయనాల వినియోగం గురించి సమాచారాన్ని అందించే విద్యా వెబ్‌సైట్. ఇది ఎరువులు, పురుగుమందులు, సేంద్రీయ వ్యవసాయం మరియు ఆహార భద్రత గురించి వివరిస్తుంది.">
+        SafeHarvest AI is an educational website that provides information about the use of chemicals on fruits and vegetables. It explains fertilizers, pesticides, organic farming and food safety.
+    </p>
+
+    <p
+        data-en="Our aim is to create awareness among farmers and people about responsible chemical use and healthy food practices."
+        data-te="రసాయనాల బాధ్యతాయుతమైన వినియోగం మరియు ఆరోగ్యకరమైన ఆహార పద్ధతుల గురించి రైతులు మరియు ప్రజలలో అవగాహన కల్పించడం మా లక్ష్యం.">
+        Our aim is to create awareness among farmers and people about responsible chemical use and healthy food practices.
+    </p>
+</section>
+
+
+<!-- CHEMICALS SECTION -->
+<section id="chemicals" class="section">
+    <h2 data-en="Chemical Information" data-te="రసాయనాల సమాచారం">
+        Chemical Information
+    </h2>
+
+    <p
+        data-en="Learn about different agricultural chemicals and their proper use."
+        data-te="వివిధ వ్యవసాయ రసాయనాలు మరియు వాటి సరైన వినియోగం గురించి తెలుసుకోండి.">
+        Learn about different agricultural chemicals and their proper use.
+    </p>
+
+    <div class="card-container">
+
+        <div class="card">
+            <h3 data-en="🌿 Fertilizers" data-te="🌿 ఎరువులు">
+                🌿 Fertilizers
+            </h3>
+
+            <p
+                data-en="Learn about fertilizers, their types and importance in plant growth."
+                data-te="ఎరువులు, వాటి రకాలు మరియు మొక్కల పెరుగుదలలో వాటి ప్రాముఖ్యత గురించి తెలుసుకోండి.">
+                Learn about fertilizers, their types and importance in plant growth.
+            </p>
+
+            <a href="fertilizers.html"
+               data-en="Read More"
+               data-te="మరింత చదవండి">Read More</a>
+        </div>
+
+
+        <div class="card">
+            <h3 data-en="🐛 Pesticides" data-te="🐛 పురుగుమందులు">
+                🐛 Pesticides
+            </h3>
+
+            <p
+                data-en="Understand pesticides, their uses and safety precautions."
+                data-te="పురుగుమందులు, వాటి ఉపయోగాలు మరియు భద్రతా జాగ్రత్తలను తెలుసుకోండి.">
+                Understand pesticides, their uses and safety precautions.
+            </p>
+
+            <a href="pesticides.html"
+               data-en="Read More"
+               data-te="మరింత చదవండి">Read More</a>
+        </div>
+
+    </div>
+</section>
+
+
+<!-- ORGANIC FARMING SECTION -->
+<section id="organic" class="section">
+    <h2 data-en="Organic Farming" data-te="సేంద్రీయ వ్యవసాయం">
+        Organic Farming
+    </h2>
+
+    <p
+        data-en="Organic farming uses natural methods and materials to grow crops while caring for soil and the environment."
+        data-te="సేంద్రీయ వ్యవసాయం నేల మరియు పర్యావరణాన్ని కాపాడుతూ పంటలను పండించడానికి సహజ పద్ధతులు మరియు పదార్థాలను ఉపయోగిస్తుంది.">
+        Organic farming uses natural methods and materials to grow crops while caring for soil and the environment.
+    </p>
+
+    <div class="card-container">
+
+        <div class="card">
+            <h3 data-en="🌱 Natural Fertilizers" data-te="🌱 సహజ ఎరువులు">
+                🌱 Natural Fertilizers
+            </h3>
+
+            <p
+                data-en="Compost and vermicompost are examples of natural fertilizers."
+                data-te="కంపోస్ట్ మరియు వర్మీకంపోస్ట్ సహజ ఎరువులకు ఉదాహరణలు.">
+                Compost and vermicompost are examples of natural fertilizers.
+            </p>
+        </div>
+
+        <div class="card">
+            <h3 data-en="🌾 Crop Rotation" data-te="🌾 పంట మార్పిడి">
+                🌾 Crop Rotation
+            </h3>
+
+            <p
+                data-en="Growing different crops in sequence can help maintain soil health."
+                data-te="వేర్వేరు పంటలను వరుసగా సాగు చేయడం నేల ఆరోగ్యాన్ని కాపాడటానికి సహాయపడుతుంది.">
+                Growing different crops in sequence can help maintain soil health.
+            </p>
+        </div>
+
+    </div>
+
+    <a href="organic.html"
+       data-en="Explore Organic Farming"
+       data-te="సేంద్రీయ వ్యవసాయం గురించి తెలుసుకోండి">
+       Explore Organic Farming
+    </a>
+</section>
+
+
+<!-- FOOD SAFETY SECTION -->
+<section id="safety" class="section">
+    <h2 data-en="Food Safety" data-te="ఆహార భద్రత">
+        Food Safety
+    </h2>
+
+    <p
+        data-en="Food safety is important for protecting our health. Follow good food handling and cleaning practices."
+        data-te="మన ఆరోగ్యాన్ని కాపాడుకోవడానికి ఆహార భద్రత చాలా ముఖ్యం. ఆహారాన్ని శుభ్రపరచడం మరియు సరిగ్గా నిల్వ చేయడం వంటి మంచి పద్ధతులను పాటించండి.">
+        Food safety is important for protecting our health. Follow good food handling and cleaning practices.
+    </p>
+
+    <div class="card-container">
+
+        <div class="card">
+            <h3 data-en="🍎 Wash Fruits" data-te="🍎 పండ్లను కడగండి">
+                🍎 Wash Fruits
+            </h3>
+
+            <p
+                data-en="Wash fruits thoroughly under clean running water before eating."
+                data-te="పండ్లను తినే ముందు శుభ్రమైన ప్రవహించే నీటితో బాగా కడగండి.">
+                Wash fruits thoroughly under clean running water before eating.
+            </p>
+        </div>
+
+        <div class="card">
+            <h3 data-en="🥦 Clean Vegetables" data-te="🥦 కూరగాయలను శుభ్రపరచండి">
+                🥦 Clean Vegetables
+            </h3>
+
+            <p
+                data-en="Clean vegetables properly before cooking and consumption."
+                data-te="కూరగాయలను వండే ముందు మరియు తినే ముందు సరిగ్గా శుభ్రపరచండి.">
+                Clean vegetables properly before cooking and consumption.
+            </p>
+        </div>
+
+    </div>
+
+    <a href="safety.html"
+       data-en="Read Food Safety Tips"
+       data-te="ఆహార భద్రత చిట్కాలను చదవండి">
+       Read Food Safety Tips
+    </a>
+</section>
+
+
+<!-- AI ASSISTANT SECTION -->
+<section id="assistant" class="section">
+    <h2 data-en="AI Farming Assistant" data-te="AI వ్యవసాయ సహాయకుడు">
+        AI Farming Assistant
+    </h2>
+
+    <p
+        data-en="Ask questions about fertilizers, pesticides, organic farming and food safety."
+        data-te="ఎరువులు, పురుగుమందులు, సేంద్రీయ వ్యవసాయం మరియు ఆహార భద్రత గురించి ప్రశ్నలు అడగండి.">
+        Ask questions about fertilizers, pesticides, organic farming and food safety.
+    </p>
+
+    <div id="chatMessages">
+        <div class="bot-message">
+            Hello! Welcome to SafeHarvest AI. How can I help you?
+        </div>
+    </div>
+
+    <input
+        type="text"
+        id="userInput"
+        placeholder="Type your question here..."
+    >
+
+    <button onclick="sendMessage()"
+        data-en="Send"
+        data-te="పంపండి">Send</button>
+</section>
+
+
+<!-- FOOTER -->
+<footer>
+    <p
+        data-en="© 2026 SafeHarvest AI | Smart Farming for a Healthy Future"
+        data-te="© 2026 SafeHarvest AI | ఆరోగ్యకరమైన భవిష్యత్తు కోసం స్మార్ట్ వ్యవసాయం">
+        © 2026 SafeHarvest AI | Smart Farming for a Healthy Future
+    </p>
+</footer>
+
+
+<script src="script.js"></script>
+
+</body>
+</html>
